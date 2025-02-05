@@ -749,7 +749,6 @@ fi
 if [[ -z "$SOURCE_LIST" ]];then
   github
   sploitus
-  exploit-db
   vulnerability-lab
 else
   for SOURCE in $SOURCE_LIST;do
